@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/userPage.css">
+    <script defer src="/scripts/userPage.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-desktop">
+        <header class="header-desktop">
+            <img class="logo" src="/assets/logo.svg">
+            <button class="button-white-blue" id="logout-user-page">Logout</button>
+        </header>
+
+        <div class="sub-header">
+            <div class="sub-header-dados" id="subheader-user">
+            </div>
+            <img src="/assets/caneta.svg" alt="" class="icone-caneta">
+        </div>
+        <!--   <div class="div-sem-cadastro">
+            <h2 class="h2-sem-cadastro">Você ainda não foi contratado</h2>
+        </div> -->
+        <div class="modal-editar-perfil" id="modal-editar-perfil">
+            <div class="modal-quadrado">
+                <button class="close" id="close-modal">X</button>
+                <h2 class="titulo-modal">Editar perfil</h2>
+                <input type="text" class="input-modal" id="name" placeholder="Seu nome">
+                <input type="email" class="input-modal" id="email" placeholder="Seu e-mail">
+                <input type="password" class="input-modal" id="password" placeholder="Sua senha">
+                <button type="button" class="button-blue desktop" id="editar-perfil">Editar perfil</button>
+            </div>
+        </div>
+        <!-- <h2 class="h2-company-name">Company Name - Departament Name</h2> -->
+        <div class="div-user-page">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

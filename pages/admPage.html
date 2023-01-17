@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/admPage.css">
+    <script defer src="/scripts/admPage.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-adm">
+        <header class="header-desktop">
+            <img class="logo" src="/assets/logo.svg">
+            <button class="button-white-blue" id="logout-user-page">Logout</button>
+        </header>
+        <div class="subheader-adm">
+            <h2 class="h2-subheader">Departamentos</h2>
+            <input list="selecionar-empresa" id="select" placeholder="Selecionar empresa" class="input-lista-empresa">
+            <datalist id="selecionar-empresa">
+            </datalist>
+            <button class="button-blue subheader" id="botaoCriar"><img src="/assets/mais.svg" alt=""
+                    id="button-criar">Criar</button>
+        </div>
+
+        <div class="departament-list" id="departament">
+
+        </div>
+        <h2 class="usuarios-cadastrados">Usuários cadastrados</h2>
+        <div class="departament-list" id="departament-list">
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal-criar-departamento">
+        <div class="caixa-modal">
+            <button class="close" id="closeButton">X</button>
+            <h1 class="h1-criar-departamento">Criar departamento</h1>
+            <input class="input-modal" id="nome-departamento" type="text" placeholder="Nome do departamento">
+            <input type="text" placeholder="Descrição" class="input-modal" id="modal-descricao">
+            <input class="input-modal" list="empresa-modal" placeholder="Selecionar empresa" id="modal-select">
+            <datalist id="empresa-modal">
+
+            </datalist>
+            <button class="button-blue desktop" id="criar-departamento">Criar o departamento</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

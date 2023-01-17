@@ -1,0 +1,199 @@
+body {
+    font-family: Inter;
+}
+
+.container-desktop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-desktop {
+    padding: 0rem 8.75rem 0rem 8.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.202);
+    width: 100vw;
+}
+
+.logo {
+    width: 12.5rem;
+    height: 1.25rem;
+}
+
+.sub-header {
+    margin: 0 auto;
+    width: 73.75rem;
+    height: 7.563rem;
+    border: 1px solid var(--preto-translucido);
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.938rem 1.25rem 1.938rem;
+    margin-bottom: 2.75rem;
+}
+
+.icone-caneta {
+    width: 35px;
+    height: 35px;
+}
+
+.username {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.3px;
+    margin-bottom: 11px;
+}
+
+.div-dados-subheader {
+    display: flex;
+    width: 50rem;
+    justify-content: space-between;
+
+}
+
+.div-sem-cadastro {
+    margin: 0 auto;
+    width: 73.75rem;
+    height: 29.188rem;
+    border: 1px solid var(--preto-translucido);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+
+}
+
+.h2-sem-cadastro {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+
+}
+
+.modal-editar-perfil {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    display: none;
+}
+
+.modal-quadrado {
+    background-color: white;
+    position: relative;
+    width: 506px;
+    height: 421px;
+    padding: 39px 36px 57px 36px;
+
+
+}
+
+.close {
+    position: absolute;
+    top: 0.875rem;
+    right: 0.875rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+}
+
+.titulo-modal {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 0.75rem;
+
+}
+
+.input-modal {
+    width: 422px;
+    height: 52px;
+    padding: 0.9rem 0rem 0.9rem 1rem;
+    font-size: 1.115rem;
+    font-weight: 400;
+    color: #000;
+    font-family: Inter;
+    border: 1px solid var(--preto-translucido);
+    margin-bottom: 0.75rem;
+
+}
+
+.desktop {
+    width: 422px;
+    height: 52px;
+}
+
+.div-user-page {
+    width: 73.75rem;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    height: 29.188rem;
+    padding: 58px 59px 58px 59px;
+    display: flex;
+
+}
+
+.h2-company-name {
+    background-color: var(--azul);
+    width: 73.75rem;
+    height: 4.875rem;
+
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.25rem;
+
+
+}
+
+.div-cards-contratado {
+
+    display: flex;
+    flex-direction: row;
+    height: 11rem;
+    width: 1062px;
+    column-gap: 54px;
+    row-gap: 13px;
+
+
+
+}
+
+.card-contratado {
+    border: 1px solid var(--azul);
+    padding: 0.75rem 0.74rem 0.815rem 1.5rem;
+    background-color: #fff;
+    width: 318px;
+    height: 76px;
+}
+
+.nome-card-contratado {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 14px;
+}
+
+.cargo-card-contratado {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.flex {
+    display: flex;
+}

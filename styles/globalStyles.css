@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Mouse+Memoirs&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 150%;
+   
+    
+
+}
+:root{
+    --azul: #4200FF;
+    --branco: #FFFFFF;
+    --preto: #000000 ;
+    --vermelho: #ce4646;
+    --verde: #4BA036;
+    --grey-1:#F8F8F8;
+    --branco-translucido: rgba(255, 255, 255, 0.95);
+    --preto-translucido: rgba(0, 0, 0, 0.2);
+
+    --font-weight-1: 700;
+    --font-weight-2:600;
+    --font-weight-3:500;
+    --font-weight-4:400;
+
+    --font-18px: 1.125rem; 
+}
+.button-white-blue {
+    width: 8.875rem;
+    height: 2.563rem;
+    font-weight:var(--font-weight-1) ;
+    font-size: var(--font-18px);
+    font-family: Inter;
+    background-color: var(--branco);
+    color: #4200FF;
+    border: 2px solid #4200FF;
+    
+}
+.button-blue {
+    width: 8.875rem;
+    height: 2.563rem;
+    font-weight:var(--font-weight-1) ;
+    font-size: var(--font-18px);
+    font-family: Inter;
+    background-color: var(--azul);
+    border: 1px solid var(--azul);
+    color: #FFFFFF;
+    
+}
+.button-green{
+    
+    width: 8.875rem;
+    height: 2.563rem;
+    font-weight:var(--font-weight-1) ;
+    font-size: var(--font-18px);
+    font-family: Inter;
+    background-color: var(--verde);
+    border: 1px solid var(--verde);
+    color: #FFFFFF;
+
+}
+.toast-red{
+    background-color: var(--vermelho);
+    height: 4.25rem;
+    width: 12.938rem;
+    border-radius: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+.toast-green{
+    background-color: var(--verde);
+    height: 4.25rem;
+    width: 12.938rem;
+    border-radius: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80vh;
+    left: 75vw;
+    display: none;
+}
+.texto-toast{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 185px;
+    top: 80vh;
+    left: 75vw;
+    display: none;
+}

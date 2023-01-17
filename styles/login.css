@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+   font-family: Inter;
+   position: relative;
+    
+}
+.container-mobile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: #F8F8F8;
+}
+.header-mobile{
+    width: 100vw;
+    margin-right: 0rem;
+}
+.div-sanduiche-mobile{
+    height: 3.75rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 0rem;
+    padding: 0rem 1rem 0rem 1.688rem ;
+   justify-content: space-between;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.202);
+   background-color: #ffffff;
+
+
+}
+.div-drop-down-header-home{
+    position: absolute;
+    height: 5.938rem;
+    width: 100%;
+    background-color: #ffffff;
+    top: 3.7rem;
+    box-shadow: 0px 0px 1px 0px rgba(178, 173, 173, 0.216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    display: none;
+
+}
+.flex{
+    display: flex;
+}
+.main-login-mobile{
+    background-image: url('/assets/mobileRegisterBg.svg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    margin-top:  0rem;
+ 
+}
+.modal-login-mobile{
+    height: 32.438rem;
+    width: 100vw;
+    margin-top: 1.75rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    background-color: var(--branco-translucido);
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+.h1-login-mobile{
+    font-size: 2rem;
+    line-height: 3rem;
+    font: Poppins;
+    font-weight: var(--font-weight-1);
+    margin-left: 2rem;
+    margin-bottom: 1.675rem;
+}
+.p-login{
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: 1.25rem;
+   
+    margin-bottom: 1rem;
+}
+.input-mobile{
+    height: 3.25rem ;
+    width:20.25rem ;
+    border: 1px solid var(--preto-translucido);
+    padding: 1rem 1rem 0.875rem 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: Inter;
+    
+}
+.form-login-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0 auto;
+   
+}
+.desktop{
+    height: 3rem ;
+    width:26.375rem ;
+    margin: 0 auto;
+}
+.p-ou{
+    align-self: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.container-desktop{
+    width: 100vw;
+    height: 100vh;
+}
+.header-home-desktop{
+    padding: 0rem 8.75rem 0rem 8.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.202);
+    width: 100vw;
+}
+.logo{
+    width: 12.5rem;
+    height: 1.25rem;
+}
+.buttons-header-desktop{
+    display: flex;
+    gap: 0.75rem;
+
+}
+.main-desktop{
+    padding-top: 2.75rem;
+    gap: 3.75rem;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('/assets/desktopBG.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:  0rem;
+}
+.modal-login-desktop{
+    width: 31.625rem;
+    height:30.563rem;
+    margin-top: 8.9rem;
+    margin: 0 auto;
+    background-color: var(--branco-translucido);
+    padding: 2.5rem 2.625rem 2.5rem 2.625rem;
+
+}
+.form-login-desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.h1-desktop{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 150%;
+    font-family: Inter;
+    margin-bottom: 0.875rem;
+}
+.input-desktop{
+    width: 26.375rem;
+    height: 3.25rem;
+    padding: 0.938rem 0rem 0.938rem 1rem;
+    border: 1px solid var(--preto-translucido);
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: Inter;
+
+}
+.button-desktop{
+    width: 26.375rem;
+    height: 3.25rem;
+}
+.larger{
+    width: 324px;
+}

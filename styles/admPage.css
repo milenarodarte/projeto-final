@@ -1,0 +1,474 @@
+body {
+    position: relative;
+    font-family: Inter;
+}
+
+.container-adm {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+.header-desktop {
+    padding: 0rem 8.75rem 0rem 8.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.202);
+    width: 100vw;
+
+}
+
+.logo {
+    width: 12.5rem;
+    height: 1.25rem;
+}
+
+.subheader-adm {
+    width: 73.875rem;
+    height: 2.25rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 6.5rem;
+}
+
+.h2-subheader {
+    font-family: Inter;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+
+}
+
+.input-lista-empresa {
+    width: 17.625rem;
+    height: 2rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #000;
+    padding: 0.25rem 0rem 0.25rem 2rem;
+    font-family: Inter;
+
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    gap: 1rem;
+
+}
+
+.departament-list {
+
+    width: 73.875rem;
+    height: 17.813rem;
+    background-color: var(--grey-1);
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    padding: 2rem 3.5rem 0rem 3.5rem;
+    overflow-y: scroll;
+    display: flex;
+    column-gap: 92px;
+    row-gap: 28px;
+    flex-wrap: wrap;
+
+}
+
+.departament-listbody::-webkit-scrollbar-track {
+    background-color: var(--azul);
+}
+
+.departament-card {
+    background-color: white;
+    border-bottom: 1px solid var(--azul);
+    padding: 1.125rem 0rem 1.25rem 1.75rem;
+    height: 12.25rem;
+    width: 29.9rem;
+}
+
+.h2-departament-card {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: 0.5rem;
+}
+
+.p-card-departament {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-bottom: 0.95rem;
+    font-family: Inter;
+}
+
+.p-card-departament-description {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-bottom: 0.95rem;
+    font-family: Inter;
+}
+
+.buttons-card {
+
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.875rem;
+    font-family: Inter;
+    margin-left: 8rem;
+}
+
+.usuarios-cadastrados {
+    width: 100vw;
+    height: 7.563rem;
+    font-size: 1.875rem;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 5rem;
+
+}
+
+.users-card {
+    background-color: white;
+    border-bottom: 1px solid var(--azul);
+    padding: 1.125rem 0rem 1.25rem 1.75rem;
+    height: 12.25rem;
+    width: 29.9rem;
+}
+
+.h2-user-card {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: 0.5rem;
+}
+
+.p-card-user-description {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-bottom: 0.95rem;
+    font-family: Inter;
+}
+
+.p-card-user-company {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin-bottom: 0.95rem;
+    font-family: Inter;
+}
+
+.modal-departament-name {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.white-modal-departament-name {
+    width: 857px;
+    height: 637px;
+    background-color: white;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 43px;
+    padding-bottom: 69px;
+}
+
+.close {
+    position: absolute;
+    top: 0.875rem;
+    right: 0.875rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+}
+
+.modal-title {
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.div-modal-departament-name {
+    width: 774px;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+
+.select-and-button {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+
+
+
+}
+
+.input-select {
+    width: 422px;
+    height: 52px;
+    padding: 0.9rem 0rem 0.9rem 1rem;
+    font-size: 1.115rem;
+    font-weight: 400;
+    color: #000;
+    font-family: Inter;
+    border: 1px solid var(--preto-translucido);
+}
+
+.modal-button-green {
+    align-self: flex-end;
+    height: 48px;
+    width: 157px;
+}
+
+.p-div-description {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 11px;
+}
+
+.p-company {
+    font-size: 1.115rem;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+.div-cards-user {
+    display: flex;
+
+    column-gap: 40px;
+    background-color: var(--grey-1);
+    height: 290px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 43px 0px 51px 33px;
+}
+
+.cards-user {
+    background-color: white;
+    Width: 306px;
+    Height: 196px;
+    padding: 18px 0px 21px 29px;
+    border-bottom: 1px solid var(--azul);
+}
+
+.card-name {
+    Width: 250px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 9px;
+}
+
+.card-job {
+    font-size: 1.115rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 11px;
+}
+
+.company-card {
+    font-size: 1.115rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 22px;
+}
+
+.button-desligar-modal {
+    width: 157px;
+    height: 48px;
+    border: 1px solid #CE4646;
+    color: #CE4646;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Inter;
+    padding: 13px 26px 14px 26px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+.modal-editar-departamento {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+
+}
+
+.caixa-branca-modal {
+    position: relative;
+    width: 506px;
+    height: 330px;
+    padding: 39px 41px 45px 42px;
+    background-color: white;
+}
+
+.h1-editar-departamento {
+    line-height: 53px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#text-area-modal-editar {
+    margin-top: 20px;
+    width: 422px;
+    height: 113px;
+    margin-bottom: 14px;
+}
+
+.modal-button-blue {
+    width: 422px;
+    height: 38px;
+
+}
+
+.modal-criar-departamento {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    display: none;
+
+}
+
+.caixa-modal {
+    background-color: white;
+    width: 506px;
+    height: 402px;
+    padding: 39px 41px 45px 42px;
+    position: relative;
+}
+
+.h1-criar-departamento {
+    line-height: 53px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.input-modal {
+    width: 422px;
+    height: 52px;
+    padding: 0.9rem 0rem 0.9rem 1rem;
+    font-size: 1.115rem;
+    font-weight: 400;
+    color: #000;
+    font-family: Inter;
+    border: 1px solid var(--preto-translucido);
+    margin-bottom: 0.75rem;
+}
+
+.desktop {
+    width: 422px;
+    height: 52px;
+}
+
+.modal-confirmacao-remover-departamento-nome {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+
+}
+
+.modal-quadro-branco {
+    background-color: white;
+    position: relative;
+    width: 733px;
+    height: 342px;
+    padding: 70px 67px 66px 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-remover {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 38px;
+}
+
+.modal-confirmacao-remover {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+
+}
+
+.modal-editar-usuario {
+    background-color: var(--preto-translucido);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+
+}
+
+.modal-quadro-branco-2 {
+    background-color: white;
+    position: relative;
+    width: 506px;
+    height: 342px;
+    padding: 39px 42px 50px 43px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.modal-title-2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.flex {
+    display: flex;
+}
